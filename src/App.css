@@ -12,3 +12,20 @@
 *{
   font-family: "Poppins";
 }
+
+h1{
+  animation:animate 2s linear;
+}
+
+@keyframes animate {
+  0%{
+    opacity: 0;
+  }
+  50%{
+    color: blue;
+  }
+  100%{
+    opacity: 1;
+    color: black;
+  }
+}

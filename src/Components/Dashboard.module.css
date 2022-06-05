@@ -2,6 +2,7 @@
     background-color: #fff;
     border-left:1px solid #f3f5f9;;
     text-align: center;
+    animation-delay: 5000ms;
 }
 
 .profile{
@@ -12,6 +13,7 @@
 
 .image{
     width: 50%;
+    animation: animate2 10s linear infinite;
 }
 
 .container>h2,.container>p{
@@ -41,5 +43,20 @@
 @media (max-width: 1250px) {
     .image{
         width: 20%;
+    }
+}
+
+@keyframes animate2 {
+    0%{
+        transform: rotate(0deg);
+    }
+    10%{
+        transform: scale(1.2);
+    }
+    20%{
+        transform: scale(1);
+    }
+    30%{
+        transform: rotate(360deg);
     }
 }
