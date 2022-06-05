@@ -1,0 +1,15 @@
+.container{
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5em;
+    width: 25%;
+}
+
+.circle{
+    border: 1px solid #f3f5f94f;
+    display: inline-block;
+    padding: 0.8em 1em;
+    border-radius:50% ;
+}

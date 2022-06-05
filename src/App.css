@@ -1,0 +1,14 @@
+.App{
+  display: flex;
+  background-color: #f3f5f9;
+  min-height: 100vh;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../public/Poppins/Poppins-Regular.ttf");
+}
+
+*{
+  font-family: "Poppins";
+}

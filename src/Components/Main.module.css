@@ -1,0 +1,99 @@
+.main_container{
+    display: flex;
+}
+
+.main{
+    width: 100%;
+}
+
+.content{
+    background-color: #f3f5f9;
+    padding: 1em 2em;
+}
+
+.milestones{
+    background-color: rgba(78,69,236,255);
+    padding: 1em;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    height: 300px;
+}
+
+.image{
+    width: 50%;
+    height: 70%;
+    margin: 0 auto;
+}
+
+.milestones>h3{
+    color: white;
+}
+
+.milestones>p{
+    color: lightgray;
+}
+
+.milestones>div{
+    background-color: #f3f5f9;
+    border-radius: 15px;
+}
+
+.milestones>div>p{
+    color: rgba(82,79,231,255)
+    ;
+}
+
+.tasks_container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.summary{
+    background-color: #fff;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    height: 300px;
+    padding: 1em;
+}
+
+.line{
+    padding: 1px;
+    background-color: #f3f5f9;
+}
+
+.project{
+    width: 70%;
+}
+
+.status_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.progression{
+    background-color: rgba(78,69,236,255);
+    padding: 5px 10px;
+    color: #f3f5f9;
+    border-radius: 15px;
+}
+
+.tasks_list{
+    background-color: #f3f5f9;
+    padding: 0em 2em;
+}
+
+.tasks_list>div{
+    display: flex;
+    justify-content: space-between;
+}

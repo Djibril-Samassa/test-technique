@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    margin: 1em;
+    width: 90%;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.container>img{
+    width: 15%;
+    height: 15%;
+    background-color: #6364f9;
+    border-radius: 20px;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.description>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.date{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+}
