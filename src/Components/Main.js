@@ -1,6 +1,7 @@
 import React from "react";
 import Style from "./Main.module.css";
 import Header from "./Header";
+import Navbar from "./Navbar";
 import Status from "./Status";
 import Task from "./Task";
 import Dashboard from "./Dashboard";
@@ -8,11 +9,13 @@ import Dashboard from "./Dashboard";
 export default function Main(){
     return(
         <div className={Style.main_container}>
+            
+            <Navbar/>
             <div className={Style.main}>
                 <Header/>
                 <div className={Style.content}>
                 <div className={Style.tasks_container}>   
-                    <div>
+                    <div className={Style.trente}>
                         <h3>Milestones</h3>
                         <div className={Style.milestones}>
                             <img src="/astro_rocket.png" className={Style.image}/>
@@ -22,7 +25,7 @@ export default function Main(){
                         </div>
                     </div>
 
-                    <div>   
+                    <div className={Style.soixante}>   
                         <h3>Task Summary</h3>
                         <div className={Style.summary}>
                             <div className={Style.project}>
