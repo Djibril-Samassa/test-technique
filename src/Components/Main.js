@@ -54,11 +54,6 @@ export default function Main(){
                                 </div>
                             </div>
                             
-                            <div className={Style.line}></div>                
-
-                            <div className={Style.team}>
-                                <h3>Our team</h3>
-                            </div>
                         </div>
                     </div>
 

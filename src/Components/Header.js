@@ -12,7 +12,7 @@ export default function Header(){
         </div>
         <div className={Style.line}></div>
         <div className={Style.filters_main}>
-            <div>
+            <div className={Style.text_filter}>
                 <h1>Active Tasks</h1>
                 <p>You can edit all the stuff as you wish</p>
             </div>

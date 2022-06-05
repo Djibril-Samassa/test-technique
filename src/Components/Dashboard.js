@@ -27,8 +27,8 @@ export default function Dashboard(){
                 </div>
             </div>
             <input type="date" id="start" name="trip-start"
-                value="2021-07-22"
-                min="2021-01-01" max="2021-12-31"/>
+                value="2022-06-05"
+                min="2022-01-01" max="2022-12-31"/>
             <Appointment/>
             <Appointment/>
 

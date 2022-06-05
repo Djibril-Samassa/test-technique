@@ -1,5 +1,6 @@
 .main_container{
     display: flex;
+    display: 70%;
 }
 
 .main{
@@ -19,7 +20,7 @@
     flex-direction: column;
     text-align: center;
     width: 80%;
-    height: 300px;
+    /* height: 300px; */
 }
 
 .image{
@@ -55,8 +56,6 @@
 .summary{
     background-color: #fff;
     border-radius: 25px;
-    display: flex;
-    justify-content: space-between;
     width: 500px;
     height: 300px;
     padding: 1em;
@@ -68,12 +67,13 @@
 }
 
 .project{
-    width: 70%;
+    width: 100%;
 }
 
 .status_container{
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
 .bottom{
@@ -96,4 +96,33 @@
 .tasks_list>div{
     display: flex;
     justify-content: space-between;
+}
+
+@media (max-width : 1250px) {
+    .tasks_container{
+        flex-direction: column;
+    }
+
+    .summary{
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .milestones{
+        width: 50%;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .status_container{
+        justify-content: space-between;
+    }
+}
+
+@media (max-width : 1000px) {
+    .main_container{
+        flex-direction: column;
+        width: 100%;
+    }
 }

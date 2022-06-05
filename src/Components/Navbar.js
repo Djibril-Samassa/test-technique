@@ -6,7 +6,7 @@ export default function(){
     return(
         <div className={Style.container}>
             <div className={Style.content}>
-                <p>Logo</p>
+                <img src="/astro_rocket.png"/>
                 <nav className={Style.navbar}>   
                     <li><Icon className={Style.active}icon="fluent:cellular-data-2-20-filled" width="25" height="25"/></li>
                     <li><Icon icon="bi:display" width="25" height="25"/></li>
